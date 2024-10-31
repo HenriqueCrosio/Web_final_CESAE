@@ -28,6 +28,6 @@ function simulateLogin(email, password) {
         const homePageUrl = 'URL_DO_REPOSITORIO';
         
         // Redirecionar para a página inicial
-        window.location.href = '../../index.html';
+        window.location.href = 'pages/home/home.html';
     }, 500); // 0.5 segundos de atraso
 }
