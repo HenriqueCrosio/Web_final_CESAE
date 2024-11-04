@@ -1,0 +1,162 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo e Fonte */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0F2F5;
+    color: #333333;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(90deg, #b3e0c0 0%, #158B36 100%);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.navbar-brand img {
+    max-height: 40px;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-weight: bold;
+}
+.nav-link:hover {
+    color: #b3e0c0;
+    text-decoration: none;
+}
+
+/* Sidebar (Perfil) */
+.sidebar .card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    margin-bottom: 1em;
+    display: flex; /* Ativa o flexbox */
+    flex-direction: column; /* Alinha os itens em coluna */
+    align-items: center; /* Centraliza horizontalmente */
+    text-align: center; /* Centraliza o texto */
+}
+
+.sidebar .profile-pic {
+    width: 250px; /* Mantenha o tamanho desejado */
+    height: 250px; /* Mantenha o tamanho desejado */
+    border-radius: 50%; 
+    object-fit: cover;
+    margin: 0 auto; /* Isso vai centralizar a imagem horizontalmente */
+}
+
+.sidebar h5 {
+    color: #158B36;
+    font-weight: bold;
+}
+
+/* Perfil */
+.content .card {
+    background-color: #EBF6E5;
+    padding: 1em;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    border-left: 5px solid #158B36;
+}
+.content h2 {
+    color: #158B36;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+/* SoftSkills e Equipa */
+.skills-equipa-container {
+    display: flex;
+    gap: 1em;
+}
+.skills, .equipa {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.skills h5, .equipa h5 {
+    color: #158B36;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+.skills-grid, .equipa  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5em;
+}
+
+.skills-item, .equipa .skills-item {
+    background-color: #f9f9f9; /* Cor de fundo igual à da .sidebar .card */
+    border-radius: 10px;
+    text-align: center;
+    padding: 0.5em;
+    color: #158B36; /* Mantendo a cor do texto */
+    font-weight: bolder;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* Sombra igual à da .sidebar .card */
+}
+
+.skills-pic, .equipa .skills-pic {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1em;
+    border: 2px solid #158B36;
+}
+
+/* Modal */
+.modal-content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.modal-body {
+    padding: 0;
+}
+
+/* Links */
+.no-decoration {
+    text-decoration: none;
+    color: inherit;
+}
+
+a {
+    color: #28a745;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333333;
+    padding: 1.5em 0;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.9em;
+    border-top: 2px solid #158B36;
+}
+footer a {
+    color: #ffffff;
+    font-size: 1.5em;
+}
