@@ -1,0 +1,72 @@
+.btn-close {
+    position: absolute;
+    right: 0;
+    padding: 1em;
+}
+
+.navbar {
+    background: linear-gradient(90deg, rgb(179, 224, 192) 0%, rgba(21, 139, 54, 0.90) 100%);
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.modal-content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.modal-body {
+    padding: 0;
+}
+
+.no-decoration {
+    text-decoration: none;
+}
+
+.header {
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+}
+
+.s-logo {
+    width: 40px;
+    height: auto;
+}
+
+.banner-row {
+    padding: 0px;
+    height: auto;
+    overflow:hidden;
+}
+.img-banner img {
+    width: 100%;
+    height: auto;
+}
+
+.form-control::placeholder {
+    color: white;
+}
+
+body {
+    background-color: rgba(217, 214, 217, 0.933);
+    padding: 0px;
+    margin: 0px;
+}
+
+.bannerEquipa img {
+    width: 120px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+footer {
+    background-color: gray;
+    padding: 0px;
+    margin: 0px;
+
+}
