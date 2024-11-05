@@ -64,13 +64,6 @@ body {
     margin-right: 40px;
 }
 
-.containerImgs {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    flex-wrap: wrap;
-}
-
 footer {
     background-color: gray;
     padding: 0px;
