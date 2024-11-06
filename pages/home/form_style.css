@@ -1,0 +1,28 @@
+body{
+    background-color: rgba(71, 203, 84, 0.884);
+    font-weight: bold;
+    font-size: large;
+   
+}
+/*label, span, input {
+    text-decoration-color: success;
+}*/
+fieldset{
+    border: 2px solid gold;
+    padding: 5px 15px;
+}
+.asterisco {
+    color: darkred;
+}
+
+#Textarea {
+    height: 40px;
+}
+
+
+#botões {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    
+}
