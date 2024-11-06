@@ -5,26 +5,24 @@
     box-sizing: border-box;
 }
 
-/* Corpo e Fonte */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #F0F2F5;
-    color: #333333;
-    padding: 0;
-    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px; 
+    position: relative;
 }
-
-/* Navbar */
-.navbar {
-    background: linear-gradient(90deg, #b3e0c0 0%, #158B36 100%);
-    border-radius: 20px;
-    margin: 20px;
+ /*Navbar */
+ .navbar {
+    background: linear-gradient(90deg, #b3e0c0 0%, rgba(21, 139, 54, 0.90) 100%);
+    border-radius: 12px;
     padding: 10px 20px;
-}
-
-.navbar-brand {
-    font-weight: bold;
-    color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1001;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-brand img {
@@ -32,13 +30,31 @@ body {
 }
 
 .nav-link {
-    color: #ffffff;
+    color: #ffffff !important;
+    padding: 8px 15px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 8px;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.nav-link.active {
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-success {
+    background-color: #158b36;
+    border-color: #158b36;
     font-weight: bold;
 }
-.nav-link:hover {
-    color: #b3e0c0;
-    text-decoration: none;
+
+.btn-success:hover {
+    background-color: #126c2b;
 }
+
 
 /* Sidebar (Perfil) */
 .sidebar .card {
@@ -98,9 +114,11 @@ body {
     margin-bottom: 0.5em;
 }
 .skills-grid, .equipa  .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0.5em;
+    display: flex;             /* Usar Flexbox */
+    justify-content: center;   /* Centralizar horizontalmente */
+    align-items: center;       /* Centralizar verticalmente (se necessário) */
+    flex-wrap: wrap;          /* Permitir quebra de linha se necessário */
+    gap: 20px;     
 }
 
 .skills-item, .equipa .skills-item {
@@ -108,7 +126,8 @@ body {
     border-radius: 10px;
     text-align: center;
     padding: 0.5em;
-    color: #158B36; /* Mantendo a cor do texto */
+    width: auto;            
+    color: #158B36; 
     font-weight: bolder;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* Sombra igual à da .sidebar .card */
 }
