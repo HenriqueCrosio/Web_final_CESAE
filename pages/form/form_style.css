@@ -26,3 +26,11 @@ fieldset{
     gap: 15px;
     
 }
+
+a {
+    color: #28a745;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}

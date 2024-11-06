@@ -17,8 +17,13 @@ body {
 }
 
 .logo {
-    height: 40px;
-    width: auto;
+    width: 60px;
+    height: auto;
+}
+
+.s-logo {
+    width: 40px;
+    height: auto;
 }
 
 .projeto-card {
@@ -179,4 +184,12 @@ footer .nav-link.p-0.text-body-secondary {
         flex: 0 0 100%;
         max-width: 100%;
     }
+}
+
+a {
+    color: #28a745;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }

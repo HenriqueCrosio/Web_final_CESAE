@@ -12,7 +12,13 @@ body {
     padding-top: 20px; 
     position: relative;
 }
- /*Navbar */
+
+.navbar {
+    background: linear-gradient(90deg, rgb(179, 224, 192) 0%, rgba(21, 139, 54, 0.90) 100%);
+    border-radius: 20px;
+    margin: 20px;
+}
+ /*Navbar 
  .navbar {
     background: linear-gradient(90deg, #b3e0c0 0%, rgba(21, 139, 54, 0.90) 100%);
     border-radius: 12px;
@@ -49,6 +55,7 @@ body {
     font-weight: bold;
     background-color: rgba(255, 255, 255, 0.3);
 }
+    
 
 .btn-success {
     background-color: #158b36;
@@ -59,6 +66,7 @@ body {
 .btn-success:hover {
     background-color: #126c2b;
 }
+    */
 
 
 /* Sidebar (Perfil) */
@@ -173,14 +181,18 @@ a:hover {
 
 /* Rodapé */
 footer {
-    background-color: #333333;
-    padding: 1.5em 0;
-    color: #ffffff;
-    text-align: center;
-    font-size: 0.9em;
-    border-top: 2px solid #158B36;
+    background-color: gray;
+    padding: 0px;
+    margin: 0px;
+
 }
-footer a {
-    color: #ffffff;
-    font-size: 1.5em;
+
+.logo {
+    width: 60px;
+    height: auto;
+}
+
+.s-logo {
+    width: 40px;
+    height: auto;
 }
