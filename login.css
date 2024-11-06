@@ -3,41 +3,41 @@
     --facebook-blue: rgb(26,119,242);
     --success-green: #28a745;
 }
-
+ 
 @font-face {
     font-family: 'Segoe UI';
     src: local('Segoe UI');
     font-weight: normal;
     font-style: normal;
 }
-
+ 
 @font-face {
     font-family: 'Segoe UI';
     src: local('Segoe UI Bold');
     font-weight: bold;
     font-style: normal;
 }
-
+ 
 @font-face {
     font-family: 'Segoe UI';
     src: local('Segoe UI Light');
     font-weight: 300;
     font-style: normal;
 }
-
+ 
 @font-face {
     font-family: 'Segoe UI';
     src: local('Segoe UI Italic');
     font-weight: normal;
     font-style: italic;
 }
-
+ 
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
 }
-
+ 
 body {
     font-family: 'Segoe UI', sans-serif;
     background-image: url('images/bg_page.png');
@@ -50,7 +50,7 @@ body {
     padding-top: 60px; 
     position: relative;
 }
-
+ 
 .overlay {
     position: fixed;
     top: 0;
@@ -60,29 +60,29 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1000;
 }
-
+ 
+.btn-close {
+    position: absolute;
+    right: 0;
+    padding: 1em;
+}
+ 
 .navbar {
     background: linear-gradient(90deg, rgb(179, 224, 192) 0%, rgba(21, 139, 54, 0.90) 100%);
     border-radius: 20px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1001;
-    padding: 10px 20px;
-    pointer-events: none;
+    margin: 20px;
 }
-
+ 
 .navbar-brand img {
     max-height: 40px;
 }
-
+ 
 .btn-success {
     background-color: var(--success-green);
     border-color: var(--success-green);
     font-weight: bold;
 }
-
+ 
 .main-container {
     display: flex;
     justify-content: center;
@@ -91,7 +91,7 @@ body {
     position: relative;
     z-index: 1002;
 }
-
+ 
 .login-container {
     width: 475px;
     padding: 20px;
@@ -103,7 +103,7 @@ body {
     align-items: center;
     animation: popUp 0.5s ease-out;
 }
-
+ 
 @keyframes popUp {
     0% {
         transform: scale(0.8);
@@ -114,55 +114,56 @@ body {
         opacity: 1;
     }
 }
-
+ 
 .logo {
-    max-width: 100px;
+    width: 60px;
+    height: auto;
 }
-
+ 
 h2 {
     font-weight: bold;
 }
-
+ 
 .btn {
     border-radius: 20px;
     font-weight: bold;
 }
-
+ 
 .btn-danger {
     background-color: var(--pinterest-red);
     border-color: var(--pinterest-red);
 }
-
+ 
 .btn-facebook {
     background-color: var(--facebook-blue);
     border-color: var(--facebook-blue);
     color: white;
 }
-
+ 
 .btn-facebook:hover {
     background-color: rgb(20, 100, 210);
     color: white;
 }
-
+ 
 .small-text {
     font-size: 0.8rem;
     color: #666;
     font-weight: 300;
 }
-
+ 
 .small-text a {
     color: #666;
     text-decoration: none;
 }
-
+ 
 .small-text a:hover {
     text-decoration: underline;
 }
-
+ 
 .form-control, .input-group-text {
     border-radius: 15px;
 }
-
+ 
 .input-group-text {
     background-color: #f8f9fa;
 }

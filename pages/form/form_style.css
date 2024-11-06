@@ -1,20 +1,17 @@
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: linear-gradient(180deg, rgb(170, 232, 182) 0%, rgba(51, 151, 79, 0.868) 100%);
-    margin: 0;
-    padding: 0;
+body {
+    background: linear-gradient(180deg, rgb(248,249,250) 0%, rgba(194, 224, 202, 0.9) 100%);
+    padding: 0px;
+    margin: 0px;
 }
 
 .form-container {
-    background: linear-gradient(180deg, rgb(216, 118, 6) 0%, rgba(245, 176, 115, 0.868) 100%);;
+    background: linear-gradient(180deg, rgb(216, 118, 6) 0%, rgba(245, 176, 115, 0.868) 100%);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 1000px;
+    margin-top: 150px;
 }
 
 #contactar {
@@ -34,15 +31,72 @@ form *::placeholder {
 
 .asterisco {
     color: darkred;
+    font-size: 25px;
 }
 
 #Textarea {
-    height: 40px;
+    height: 200px;
+    resize: none;
 }
 
+/* corbotoes*/
+.corBotao {
+    background-color: darkgray;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    opacity:1 ;
+    transition: opacity 0.3s;
+}
+.corBotao:hover {
+    box-shadow: black 5px 5px 15px;
+    transform: translateY(-2px);
+    opacity: 0.8;
+}
 
 #botões {
     display: flex;
     justify-content: center;
-    gap: 15px;    
+    gap: 15px;
+}
+
+footer {
+    background-color: gray;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+}
+
+.s-logo {
+    width: 40px;
+    height: auto;
+}
+
+.navbar {
+    background: linear-gradient(90deg, rgb(179, 224, 192) 0%, rgba(21, 139, 54, 0.90) 100%);
+    border-radius: 20px;
+    margin: 20px;
+}
+a {
+    color: #28a745;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.modal-content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.modal-body {
+    padding: 0;
 }
