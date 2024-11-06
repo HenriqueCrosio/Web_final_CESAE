@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Segoe+UI:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    background: linear-gradient(180deg, rgb(248,249,250) 0%, rgba(194, 224, 202, 0.9) 100%);
+    color: #e0e0e0;
+    padding-top: 80px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background: linear-gradient(90deg, rgb(179, 224, 192) 0%, rgba(21, 139, 54, 0.90) 100%);
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+.projeto-card {
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.projeto-card:hover {
+    transform: translateY(-5px);
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+    overflow: hidden;
+    background: linear-gradient(90deg, rgb(179, 224, 192) 0%, rgba(21, 139, 54, 0.90) 100%);
+}
+
+.card-img-top {
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.card-img-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card:hover .card-img-overlay {
+    opacity: 1;
+}
+
+.card-title {
+    font-family: 'Segoe UI', 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.card-title i {
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+.accordion-button {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    transition: all 0.3s ease;
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #34495e;
+    color: #ffffff;
+}
+
+.accordion-button:hover {
+    background-color: #3498db;
+}
+
+.accordion-body {
+    background-color: #34495e;
+    color: #ecf0f1;
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+.btn-orcamento {
+    background-color: #e74c3c;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    font-family: 'Segoe UI', 'Poppins', sans-serif;
+}
+
+.btn-orcamento:hover {
+    background-color: #c0392b;
+    color: #ffffff;
+}
+
+.orcamento-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#depoimentosCarousel {
+    background: linear-gradient(90deg, rgb(179, 224, 192) 0%, rgba(21, 139, 54, 0.90) 100%);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.carousel-item {
+    text-align: center;
+    padding: 20px;
+    color: #000;
+}
+
+.depoimento-imagem {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    object-fit: cover;
+}
+
+.blockquote-footer {
+    color: #6d6e6d;
+    margin-top: 10px;
+    background-color: transparent;
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+footer {
+    background-color: #2c3e50;
+    border-top: 1px solid #34495e;
+    margin-top: auto;
+    padding: 20px 0;
+    color: #ecf0f1;
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+.s-logo {
+    height: 30px;
+    width: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(19,139,54);
+    font-family: 'Segoe UI', 'Poppins', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #6d6e6d;
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+footer .nav-link.p-0.text-body-secondary {
+    color: #ebeae8 !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #3498db;
+}
+
+@media (max-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
