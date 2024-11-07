@@ -1,11 +1,11 @@
 # web_proj_final
-#Descrição do projeto
+# Descrição do projeto
  
 Este projeto consiste numa página *web* que apresenta a um potencial cliente uma equipa de programadores *Web* e os seus serviços. Nesse sentido, o cliente, após inserir as suas credenciais de *login*, terá acesso aos perfis da equipa, poderá visualizar o seu portfólio, e entrar em contacto com a empresa para solicitar um serviço e o respetivo orçamento.
  
  
  
-#Instruções sobre como visualizar o site localmente
+# Instruções sobre como visualizar o site localmente
  
 1- Clonar o repositório https://github.com/joaodafonso/web_proj_final
 2- usar vscode e instalar plug-in LiveServer
