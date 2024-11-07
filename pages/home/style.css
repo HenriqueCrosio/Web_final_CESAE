@@ -55,10 +55,6 @@ a:hover {
     height: auto;
 }
 
-.form-control::placeholder {
-    color: white;
-}
-
 body {
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(180deg, rgb(248,249,250) 0%, rgba(194, 224, 202, 0.9) 100%);
