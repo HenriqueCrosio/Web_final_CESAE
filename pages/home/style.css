@@ -104,3 +104,13 @@ footer .nav-link.p-0.text-body-secondary {
     width: 40px;
     height: auto;
 }
+
+.btn-orcamento {
+    background-color: #e74c3c;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    font-family: 'Segoe UI', 'Poppins', sans-serif;
+}
