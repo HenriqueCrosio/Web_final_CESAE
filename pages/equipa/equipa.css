@@ -7,3 +7,45 @@
     height: 120px;
     width: 120px;
 }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px; 
+    position: relative;
+    background: linear-gradient(180deg, rgb(248,249,250) 0%, rgba(194, 224, 202, 0.9) 100%);
+}
+
+/* Rodapé */
+footer {
+    background-color: #3e5a72;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+h5 {
+    color: rgb(235, 255, 241);
+    font-family: 'Segoe UI', 'Poppins', sans-serif;
+}
+
+h6 {
+    color: rgb(118, 118, 118);
+    font-family: 'Segoe UI', 'Poppins', sans-serif;
+}
+
+
+footer .nav-link.p-0.text-body-secondary {
+    color: #ebeae8 !important;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+}
+
+.s-logo {
+    width: 40px;
+    height: auto;
+}
