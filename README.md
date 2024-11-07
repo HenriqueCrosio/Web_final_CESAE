@@ -13,5 +13,5 @@ Este projeto consiste numa página *web* que apresenta a um potencial cliente um
 OBS: caso tenha selecionado uma pagina "aleatória" a primeira seria "index.html" que está localizada na pasta inicial.
  
  
-#Outras informações relevantes
+# Outras informações relevantes
 Esta página *web* foi desenvolvida com recurso a HTML 5, CSS 3, Bootstrap 5.3, GitHub Desktop versão 3.4.8, e Microsoft Visual Studio Code versão 1.95.1.
