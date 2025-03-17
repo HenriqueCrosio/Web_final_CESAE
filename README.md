@@ -7,7 +7,7 @@ Este projeto consiste numa página *web* que apresenta a um potencial cliente um
  
 # Instruções sobre como visualizar o site localmente
  
-1- Clonar o repositório https://github.com/joaodafonso/web_proj_final
+1- Clonar o repositório 
 2- usar vscode e instalar plug-in LiveServer
 3- abrir o repositório clonado no vs code e executar o LiveServer.
 OBS: caso tenha selecionado uma pagina "aleatória" a primeira seria "index.html" que está localizada na pasta inicial.
